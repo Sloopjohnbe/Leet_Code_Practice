@@ -36,7 +36,7 @@ Output: [0,0,0,0]
 
 """
 
-125ms
+#125ms
 class Solution(object):
     def smallerNumbersThanCurrent(self, nums):
         """
@@ -57,7 +57,7 @@ print(Output.smallerNumbersThanCurrent([6,5,4,8]))
 
 
 
-Runtime: 1ms
+##untime: 1ms
 class Solution(object):
     def smallerNumbersThanCurrent(self, nums):
         """
