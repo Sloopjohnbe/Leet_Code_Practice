@@ -7,6 +7,7 @@ Input: nums = [4,3,2,7,8,2,3,1]
 Output: [5,6]
 """
 
+#7980ms
 class Solution(object):
     def findDisappearedNumbers(self, nums):
         """
@@ -22,3 +23,4 @@ class Solution(object):
 
 Output = Solution()
 print(Output.findDisappearedNumbers([4,3,2,7,8,2,3,1]))
+

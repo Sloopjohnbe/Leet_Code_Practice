@@ -48,3 +48,18 @@ class Solution(object):
 Output = Solution()
 print(Output.findErrorNums([1,2,2,4]))
 print(Output.findErrorNums([1,1]))
+
+#50ms
+class Solution(object):
+    def findErrorNums(self, nums):
+        n = len(nums)
+        expected_sum = n * (n + 1) // 2 
+
+        unique_sum = sum(set(nums)) 
+    
+        actual_sum = sum(nums) 
+        
+        duplicate = actual_sum - unique_sum
+        missing = expected_sum - unique_sum
+        
+        return [duplicate, missing]
